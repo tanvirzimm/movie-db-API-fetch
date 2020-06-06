@@ -7,7 +7,7 @@ let movieContainer = document.querySelector('.movie-container');
 
 const getMovie = (inputValue) => {
 
-    fetch('http://www.omdbapi.com/?s='+inputValue+'&apikey=7df69b18').
+    fetch('https://www.omdbapi.com/?s='+inputValue+'&apikey=7df69b18').
     then((response) => response.json()).
     then(json => {
         json.Search.forEach((movie)=>{

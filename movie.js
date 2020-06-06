@@ -3,7 +3,7 @@ let container = document.querySelector('.detailsContainer');
 const getMovies = () => {
 
     let id = sessionStorage.getItem('id');
-    fetch('http://www.omdbapi.com/?i='+id+'&apikey=7df69b18').
+    fetch('https://www.omdbapi.com/?i='+id+'&apikey=7df69b18').
     then((response) => response.json()).
     then(json => {
 
