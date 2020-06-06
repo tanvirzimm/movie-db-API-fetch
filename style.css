@@ -1,0 +1,94 @@
+
+body{
+    background-color: black;
+    font-family: arial;
+}
+
+.card{
+    margin:10px 0px;
+}
+
+.navbar-custom{
+    background-color: black !important;
+    border-bottom:1px solid gray;
+}
+
+
+.navbar-brand{
+    color:white !important;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.jumbotron{
+    background-color: #161516;
+}
+
+.jumbotron-header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.detailsContainer{
+    background-color: #161516;
+    padding: 20px;
+    margin-top:50px;
+}
+
+.info-list{
+    border:2px solid gray !important;
+    border:none !important;
+}
+
+.info-list li{
+    background-color: rgb(32, 32, 32)!important;
+    border:none !important;
+}
+
+.info-list li span{
+    color:rgb(218, 218, 218);
+}
+
+.title{
+    color:white;
+}
+
+.img-poster{
+    border:3px solid rgb(31, 31, 31);
+    border-radius:5px !important;
+
+}
+
+.text-secondary{
+    color:rgb(160, 160, 160) !important;
+}
+
+
+.view-button{
+    background-color:rgb(28, 130, 177) !important;
+    border:none !important;
+    color:white;
+    
+}
+
+
+.view-button:hover{
+    background-color: rgb(32, 32, 32) !important;
+    color:white;
+}
+
+
+
+
+.back-search{
+    border:none;
+}
+
+.back-search:hover{
+    background-color: rgb(32, 32, 32);
+}
+
+.plot{
+    padding-top:20px;
+}
+
